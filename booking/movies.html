@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movies</title>
+</head>
+<body>
+  <h1>Movies</h1>
+  <ul>
+    {% for movie in movies %}
+      <li>
+        {{ movie.title }} ({{ movie.duration_minutes }} mins)
+        <a href="{% url 'shows-page' movie.id %}">View Shows</a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
