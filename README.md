@@ -33,7 +33,7 @@ Includes **JWT authentication**, **seat booking logic**, and **Swagger API docum
 
 1. **Clone & install**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/AliSayyed123/movie-ticket-booking
    cd movie_booking
    python -m venv .venv
    source .venv/bin/activate  # Windows: .venv\Scripts\activate
